@@ -3,8 +3,11 @@ import { Button, Container, Row } from 'react-bootstrap';
 import SubHome from '../SubHome/SubHome';
 import SubHomeTwo from '../SubHomeTwo/SubHomeTwo';
 import './Home.css'
+
+
 const Home = () => {
     return (
+        // home area start 
         <>
         <div className="backgroundImage">
             <Container>
@@ -17,11 +20,15 @@ const Home = () => {
                         <img className="w-100" src="https://cdn.mos.cms.futurecdn.net/qyGvJqQU7imtvpX7Chckc7.jpg" alt="" />
                     </div>
                 </Row>
-        </Container>
+            </Container>
         </div>
-        <SubHomeTwo></SubHomeTwo>
-        <SubHome></SubHome>
+
+        {/* sub heading start  */}
+            <SubHomeTwo></SubHomeTwo>
+            <SubHome></SubHome>
+        {/* sub heading end  */}
         </>
+        // home area end 
     );
 };
 

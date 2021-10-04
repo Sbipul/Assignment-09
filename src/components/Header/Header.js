@@ -3,6 +3,8 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink,useHistory } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
+
+    // hooks and buton handler 
     const history = useHistory()
     const signIn = () => {
         history.push('/sign')
@@ -11,6 +13,8 @@ const Header = () => {
         history.push('/log')
     }
     return (
+
+        // nav bar start 
         <Navbar bg="primary" variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand href="#">Learn Guitar</Navbar.Brand>
@@ -30,6 +34,7 @@ const Header = () => {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        // nav bar end 
     );
 };
 

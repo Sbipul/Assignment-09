@@ -4,6 +4,8 @@ import './Footer.css'
 
 const Footer = () => {
     return (
+
+        // footer start 
         <div className="bg-custom text-light text-center pt-5 cusFooter">
             <Container className="footerGrid">
                 <div>
@@ -46,6 +48,8 @@ const Footer = () => {
             </Container>
             <p className="p-0 m-0">allrights reserved by bipul chandro roy</p>
         </div>
+        
+        // footer end 
     );
 };
 

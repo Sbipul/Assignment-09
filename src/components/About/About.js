@@ -4,11 +4,15 @@ import './About.css'
 const About = () => {
     return (
         <>
+        {/* about page heading start */}
+
         <div className="aboutBackdround">
             <h1 className="mb-1 text-light text-center pt-5 fw-bold"><span style={{fontSize:'5rem'}}>BS guitar academy</span></h1>
-            </div>
+        </div>
+
+        {/* about page heading end */}
+
         <Container className="text-center">
-            
             <h1 className="mb-3">About Us</h1>
             <ul>
                 <li>Goal</li>
@@ -16,7 +20,10 @@ const About = () => {
                 <li>Location</li>
                 <li>Contact</li>
             </ul>
+
             
+        {/* Accordion from react bootstrap components start */}
+
             <Accordion className="my-5" defaultActiveKey="0" flush>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Goal</Accordion.Header>
@@ -37,6 +44,8 @@ const About = () => {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
+        {/* Accordion from react bootstrap components end */}
+
         </Container>
         </>
     );
