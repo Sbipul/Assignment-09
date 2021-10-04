@@ -7,7 +7,7 @@ const About = () => {
         {/* about page heading start */}
 
         <div className="aboutBackdround">
-            <h1 className="mb-1 text-light text-center pt-5 fw-bold"><span style={{fontSize:'5rem'}}>BS guitar academy</span></h1>
+            <h1 className="mb-1 text-light text-center pt-5 fw-bold"><span style={{fontSize:'5rem'}}>BS Guitar academy</span></h1>
         </div>
 
         {/* about page heading end */}
